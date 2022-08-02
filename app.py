@@ -8,7 +8,6 @@ df = pd.read_csv("accessible-pedestrian-signals.csv")
 pd.set_option('display.max_rows', None)
 
 '''Notes
-Function 1B: Single addresses
 Function 2: "and" and "at"
 Function 3: "between, and" and "with, and" '''
 
