@@ -2,6 +2,9 @@ from lib2to3.pgen2 import driver
 import pandas as pd
 import requests
 import json
+import csv
+import geopandas as gpd
+
 
 #Read accessible-pedestrian-signals csv
 df = pd.read_csv("accessible-pedestrian-signals.csv")
@@ -10,70 +13,81 @@ pd.set_option('display.max_rows', None)
 '''Notes
 Function 2: "and" and "at"
 Function 3: "between, and" and "with, and" '''
+# Global Variables
+Key = "fAAdUpAeZcHg0AQ7"
+Function2url = "https://geoservice.planning.nyc.gov/geoservice/geoservice.svc/Function_2?"
+Function3url = "https://geoservice.planning.nyc.gov/geoservice/geoservice.svc/Function_3?"
 
-#Function 2
+#Geocoding
 for i, row in df.iterrows():
+    #Variables
+    Borough = str(df.at[i,'Borough'])
+    F2Str1 = str(df.at[i,'Location']).rpartition('and')[0]
+    F2Str2 = str(df.at[i,'Location']).rpartition('and')[2]
+    OnStr = str(df.at[i,'Location']).rpartition('between')[0]
+    FromStr = str(df.at[i,'Location'])[str(df.at[i,'Location']).find("between")+len("between"):str(df.at[i,'Location']).rfind("and")]
+    ToStr = str(df.at[i,'Location']).rpartition('and')[2]
     #For memory reasons, we will only be going through the first couple of addresses
-    if i == 43:
+    if i == 3:
         break
+
     if "between" or "with" not in str(df.at[i,'Location']):
         try: 
             parameters = {
-            "Borough1": str(df.at[i,'Borough']),
-            "Street1": str(df.at[i,'Location']).rpartition('and')[0],
-            "Borough2": str(df.at[i,'Borough']),
-            "Street2": str(df.at[i,'Location']).rpartition('and')[2],
-            "Borough3": str(df.at[i,'Borough']),
-            "Key": "",
+            "Borough1": Borough,
+            "Street1": F2Str1,
+            "Borough2": Borough,
+            "Street2": F2Str2,
+            "Borough3": Borough,
+            "Key": Key,
             }
             
-            response = requests.get("https://geoservice.planning.nyc.gov/geoservice/geoservice.svc/Function_2?", params=parameters)
+            response = requests.get(Function2url, params=parameters)
             data = json.loads(response.text)
             print(data)
-
-            
         except:
             print('Not geocoded: ' + str(df.at[i,'Location']))
     
     if "between" in str(df.at[i,'Location']):
         try:
             parameters = {
-            "Borough1": str(df.at[i,'Borough']),
-            "OnStreet": str(df.at[i,'Location']).rpartition('between')[0],
-            "SecondCrossStreet": str(df.at[i,'Location']).rpartition('and')[2],
-            "Borough2": str(df.at[i,'Borough']),
-            "FirstCrossStreet": str(df.at[i,'Location'])[str(df.at[i,'Location']).find("between")+len("between"):str(df.at[i,'Location']).rfind("and")],
-            "Borough3": str(df.at[i,'Borough']),
-            "Key": "",
+            "Borough1": Borough,
+            "OnStreet": OnStr,
+            "SecondCrossStreet": ToStr,
+            "Borough2": Borough,
+            "FirstCrossStreet": FromStr,
+            "Borough3": Borough,
+            "Key": Key,
             }
 
-            response = requests.get("https://geoservice.planning.nyc.gov/geoservice/geoservice.svc/Function_3?", params=parameters)
-            print(response.text)
+            response = requests.get(Function3url, params=parameters)
+            data = json.loads(response.text)
+            print(data)
         except:
             print('Not geocoded: ' + str(df.at[i,'Location']))
     
     if "with" in str(df.at[i,'Location']):
         try:
             parameters = {
-            "Borough1": str(df.at[i,'Borough']),
-            "OnStreet": str(df.at[i,'Location']).rpartition('with')[0],
-            "SecondCrossStreet": str(df.at[i,'Location']).rpartition('and')[2],
-            "Borough2": str(df.at[i,'Borough']),
-            "FirstCrossStreet": str(df.at[i,'Location'])[str(df.at[i,'Location']).find("with")+len("with"):str(df.at[i,'Location']).rfind("and")],
-            "Borough3": str(df.at[i,'Borough']),
-            "Key": "",
+            "Borough1": Borough,
+            "OnStreet": OnStr,
+            "SecondCrossStreet": ToStr,
+            "Borough2": Borough,
+            "FirstCrossStreet": FromStr,
+            "Borough3": Borough,
+            "Key": Key,
             }
 
-            response = requests.get("https://geoservice.planning.nyc.gov/geoservice/geoservice.svc/Function_3?", params=parameters)
-            print(response.text)
+            response = requests.get(Function3url, params=parameters)
+            data = json.loads(response.text)
+            print(data)
         except:
             print('Not geocoded: ' + str(df.at[i,'Location']))
 
 
-#Save data to shp.zip file
-'''
-df.to_file(filename='accessible-predestrian-signals-Geo.shp.zip', driver='ESRI Shapefile')
-'''
+#Save data to csv file
+df.to_csv('accessible-pedestrian-signals-Geo.csv')
+
 
 #Notes
 '''
