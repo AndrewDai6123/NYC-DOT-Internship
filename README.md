@@ -1,29 +1,28 @@
 # NYC-DOT-Internship
 
-API used: https://geoservice.planning.nyc.gov/
-Borough codes for API parameters: 1 = Manhattan, 2 = Bronx, 3 = Brooklyn, 4 = Queens, 5 = Statin Island
+<h1 align="center">Python Geocoding</h1>
+<h3 align="center">Geocoding Project for NYC-DOT Data & Asset Management Team</h3>
 
-Register for Geoservice API Key and enter it into the Key variable.
+- API used: [https://geoservice.planning.nyc.gov/](https://geoservice.planning.nyc.gov/)
 
-Some example API Function parameters - 
-Functions 1A, 1B, 1E, AP parameters:
-"Borough": "1",
-"AddressNo": "120",
-"StreetName": "bwy",
-"Key": "",
+- Register for API Key [https://geoservice.planning.nyc.gov/Register](https://geoservice.planning.nyc.gov/Register)
 
-Function 2 parameters
-"Borough": "3",
-"Street1": "10th Avenue",
-"Borough2": "3",
-"Street2": "73rd Street",
-"Key": "",
+- Text Editor: **Visual Studio Code**
 
-Function 3 parameters
-"Borough1": "1",
-"OnStreet": "bwy",
-"SecondCrossStreet": "cedar",
-"Borough2": "1",
-"FirstCrossStreet": "thames",
-"Borough3": "1",
-"Key": "",
+- Python version 3.10.5 **64-bit**
+
+<h3 align="left">Connect with me:</h3>
+<p align="left">
+</p>
+
+<h3 align="left">Languages and Tools:</h3>
+<p align="left"> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> </p>
+
+<h2>Instructions</h2>
+<h3>1. Register for API key</h3>
+<h3>2. Enter in your API Key from geoservice into the "Key" variable in app.py</h3>
+<h3>3. Next Steps:</h3>
+
+- more flexability with addresses/locations
+- figure out a better way to structure code
+- save data as Shapefile
