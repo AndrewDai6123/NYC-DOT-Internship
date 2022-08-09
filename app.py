@@ -1,6 +1,8 @@
 import pandas as pd
 import requests
 import json
+import geopandas as gpd
+from shapely.geometry import LineString, Point
 
 #Read accessible-pedestrian-signals csv
 df = pd.read_csv("accessible-pedestrian-signals.csv")
@@ -28,8 +30,8 @@ for i, row in df.iterrows():
     ToStrW = str(df.at[i,'Location']).rpartition(' and ')[2]
 
     # Small Test for memory and time reasons
-    #if i == 3:
-        #break
+    # if i == 6:
+    #     break
 
     #Function 2 for intersect locations with "and" or "at"
     if "between" or "with" not in str(df.at[i,'Location']):
@@ -46,13 +48,19 @@ for i, row in df.iterrows():
             response = requests.get(Function2url, params=parameters)
 
             data = json.loads(response.text)['display']
-            lat = (data['out_latitude'])
-            lng = (data['out_longitude'])
-            df.at[i, 'lat'] = lat
-            df.at[i, 'lng'] = lng
-            print(i, lat, lng)
-        except:
+            jData = pd.json_normalize(data)
+            p1 = float(data['out_latitude']), float(data['out_longitude'])
+            p2 = float(data['out_latitude']), float(data['out_longitude'])
+            point = Point(p1, p2)
+            header = iter(jData.keys())
+            values = data.values()
+            df.at[i, 'geometry'] = str(point)
+            df.at[i, header] = values
+            print(i, str(df.at[i,'Location']), point)
+        except Exception as e:
+            print(e)
             print('Not geocoded: ' + str(df.at[i,'Location']))
+
 
     
     #Function 3 on, from, to: locations with "between" and "and"
@@ -71,15 +79,15 @@ for i, row in df.iterrows():
             response = requests.get(Function3url, params=parameters)
 
             data = json.loads(response.text)['display']
-            from_lat = (data['out_from_latitude'])
-            from_lng = (data['out_from_longitude'])
-            df.at[i, 'from_lat'] = from_lat
-            df.at[i, 'from_lng'] = from_lng
-            to_lat = (data['out_to_latitude'])
-            to_lng = (data['out_to_longitude'])
-            df.at[i, 'to_lat'] = to_lat
-            df.at[i, 'to_lng'] = to_lng
-            print(i, from_lat, from_lng, to_lat, to_lng)
+            jData = pd.json_normalize(data)
+            p1 = float(data['out_from_latitude']), float(data['out_from_longitude'])
+            p2 = float(data['out_to_latitude']), float(data['out_to_longitude'])
+            line = LineString([p1, p2])
+            header = iter(jData.keys())
+            values = data.values()
+            df.at[i, 'geometry'] = line
+            df.at[i, header] = values
+            print(i, str(df.at[i,'Location']), line)
         except:
             print('Not geocoded: ' + str(df.at[i,'Location']))
 
@@ -99,15 +107,15 @@ for i, row in df.iterrows():
             response = requests.get(Function3url, params=parameters)
 
             data = json.loads(response.text)['display']
-            from_lat = (data['out_from_latitude'])
-            from_lng = (data['out_from_longitude'])
-            df.at[i, 'from_lat'] = from_lat
-            df.at[i, 'from_lng'] = from_lng
-            to_lat = (data['out_to_latitude'])
-            to_lng = (data['out_to_longitude'])
-            df.at[i, 'to_lat'] = to_lat
-            df.at[i, 'to_lng'] = to_lng
-            print(i, from_lat, from_lng, to_lat, to_lng)
+            jData = pd.json_normalize(data)
+            p1 = float(data['out_from_latitude']), float(data['out_from_longitude'])
+            p2 = float(data['out_to_latitude']), float(data['out_to_longitude'])
+            line = LineString(p1, p2)
+            header = iter(jData.keys())
+            values = data.values()
+            df.at[i, 'geometry'] = line
+            df.at[i, header] = values
+            print(i, str(df.at[i,'Location']), line)
         except:
             print('Not geocoded: ' + str(df.at[i,'Location']))
 
