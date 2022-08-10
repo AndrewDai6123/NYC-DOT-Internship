@@ -17,9 +17,12 @@ Function3url = "https://geoservice.planning.nyc.gov/geoservice/geoservice.svc/Fu
 for i, row in df.iterrows():
     #Geo Variables
     Borough = str(df.at[i,'Borough'])
-    #Function 2 "and" or "at"
-    F2Str1 = str(df.at[i,'Location']).rpartition(' and ' or ' at ')[0]
-    F2Str2 = str(df.at[i,'Location']).rpartition(' and ' or ' at ')[2]
+    #Function 2 "and"
+    F2Str1and = str(df.at[i,'Location']).rpartition(' and ')[0]
+    F2Str2and = str(df.at[i,'Location']).rpartition(' and ')[2]
+    #Function 2 "at"
+    F2Str1at = str(df.at[i,'Location']).rpartition(' at ')[0]
+    F2Str2at = str(df.at[i,'Location']).rpartition(' at ')[2]
     #Function 3 "between, and"
     OnStrB = str(df.at[i,'Location']).rpartition(' between ')[0]
     FromStrB = str(df.at[i,'Location'])[str(df.at[i,'Location']).find(" between ")+len(" between "):str(df.at[i,'Location']).rfind(" and ")]
@@ -30,38 +33,8 @@ for i, row in df.iterrows():
     ToStrW = str(df.at[i,'Location']).rpartition(' and ')[2]
 
     # Small Test for memory and time reasons
-    # if i == 6:
+    # if i == 8:
     #     break
-
-    #Function 2 for intersect locations with "and" or "at"
-    if "between" or "with" not in str(df.at[i,'Location']):
-        try: 
-            parameters = {
-            "Borough1": Borough,
-            "Street1": F2Str1,
-            "Borough2": Borough,
-            "Street2": F2Str2,
-            "Borough3": Borough,
-            "Key": Key,
-            }
-            
-            response = requests.get(Function2url, params=parameters)
-
-            data = json.loads(response.text)['display']
-            jData = pd.json_normalize(data)
-            p1 = float(data['out_latitude']), float(data['out_longitude'])
-            p2 = float(data['out_latitude']), float(data['out_longitude'])
-            point = Point(p1, p2)
-            header = iter(jData.keys())
-            values = data.values()
-            df.at[i, 'geometry'] = str(point)
-            df.at[i, header] = values
-            print(i, str(df.at[i,'Location']), point)
-        except Exception as e:
-            print(e)
-            print('Not geocoded: ' + str(df.at[i,'Location']))
-
-
     
     #Function 3 on, from, to: locations with "between" and "and"
     if "between" in str(df.at[i,'Location']):
@@ -80,8 +53,9 @@ for i, row in df.iterrows():
 
             data = json.loads(response.text)['display']
             jData = pd.json_normalize(data)
-            p1 = float(data['out_from_latitude']), float(data['out_from_longitude'])
-            p2 = float(data['out_to_latitude']), float(data['out_to_longitude'])
+            #(long, lat)
+            p1 = float(data['out_from_longitude']), float(data['out_from_latitude'])
+            p2 = float(data['out_to_longitude']), float(data['out_to_latitude'])
             line = LineString([p1, p2])
             header = iter(jData.keys())
             values = data.values()
@@ -108,8 +82,9 @@ for i, row in df.iterrows():
 
             data = json.loads(response.text)['display']
             jData = pd.json_normalize(data)
-            p1 = float(data['out_from_latitude']), float(data['out_from_longitude'])
-            p2 = float(data['out_to_latitude']), float(data['out_to_longitude'])
+            #(long, lat)
+            p1 = float(data['out_from_longitude']), float(data['out_from_latitude'])
+            p2 = float(data['out_to_longitude']), float(data['out_to_latitude'])
             line = LineString(p1, p2)
             header = iter(jData.keys())
             values = data.values()
@@ -117,6 +92,62 @@ for i, row in df.iterrows():
             df.at[i, header] = values
             print(i, str(df.at[i,'Location']), line)
         except:
+            print('Not geocoded: ' + str(df.at[i,'Location']))
+
+    #Function 2 for intersect locations with "at"
+    if " at " in str(df.at[i,'Location']):
+        try: 
+            parameters = {
+            "Borough1": Borough,
+            "Street1": F2Str1at,
+            "Borough2": Borough,
+            "Street2": F2Str2at,
+            "Borough3": Borough,
+            "Key": Key,
+            }
+            
+            response = requests.get(Function2url, params=parameters)
+
+            data = json.loads(response.text)['display']
+            jData = pd.json_normalize(data)
+            p1 = float(data['out_latitude'])
+            p2 = float(data['out_longitude'])
+            #(long, Lat)
+            point = Point(p2, p1)
+            header = iter(jData.keys())
+            values = data.values()
+            df.at[i, 'geometry'] = str(point)
+            df.at[i, header] = values
+            print(i, str(df.at[i,'Location']), point)
+        except Exception as e:
+            print('Not geocoded: ' + str(df.at[i,'Location']))
+
+    #Function 2 for intersect locations with "and"
+    if " and " in str(df.at[i,'Location']):
+        try: 
+            parameters = {
+            "Borough1": Borough,
+            "Street1": F2Str1and,
+            "Borough2": Borough,
+            "Street2": F2Str2and,
+            "Borough3": Borough,
+            "Key": Key,
+            }
+            
+            response = requests.get(Function2url, params=parameters)
+
+            data = json.loads(response.text)['display']
+            jData = pd.json_normalize(data)
+            p1 = float(data['out_latitude'])
+            p2 = float(data['out_longitude'])
+            #(long, Lat)
+            point = Point(p2, p1)
+            header = iter(jData.keys())
+            values = data.values()
+            df.at[i, 'geometry'] = str(point)
+            df.at[i, header] = values
+            print(i, str(df.at[i,'Location']), point)
+        except Exception as e:
             print('Not geocoded: ' + str(df.at[i,'Location']))
 
 
