@@ -5,7 +5,7 @@ import geopandas as gpd
 from shapely.geometry import LineString, Point
 
 #Read accessible-pedestrian-signals csv
-df = pd.read_csv("accessible-pedestrian-signals.csv")
+df = pd.read_csv("input files/accessible-pedestrian-signals.csv")
 pd.set_option('display.max_rows', None)
 
 #API Variables
@@ -152,4 +152,4 @@ for i, row in df.iterrows():
 
 
 #Save data to csv file
-df.to_csv('accessible-pedestrian-signals-Geo.csv')
+df.to_csv('output CSV files/accessible-pedestrian-signals-Geo.csv')
