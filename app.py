@@ -70,10 +70,11 @@ for i, row in df.iterrows():
             errorLog["Location"].append(address)
             errorLog["Borough"].append(Borough)
             errorLog["Errors"].append(data["out_error_message"])
+            df.at[i, 'out_error_message'] = data['out_error_message']
 
 
     #Function 3 on, from, to: locations with "with" and "and"
-    if "with" in str(df.at[i,'Location']):
+    elif "with" in str(df.at[i,'Location']):
         try:
             parameters = {
             "Borough1": Borough,
@@ -104,10 +105,11 @@ for i, row in df.iterrows():
             errorLog["Location"].append(address)
             errorLog["Borough"].append(Borough)
             errorLog["Errors"].append(data["out_error_message"])
+            df.at[i, 'out_error_message'] = data['out_error_message']
 
 
     #Function 2 for intersect locations with "at"
-    if " at " in str(df.at[i,'Location']):
+    elif " at " in str(df.at[i,'Location']):
         try: 
             parameters = {
             "Borough1": Borough,
@@ -137,10 +139,12 @@ for i, row in df.iterrows():
             errorLog["Location"].append(address)
             errorLog["Borough"].append(Borough)
             errorLog["Errors"].append(data["out_error_message"])
+            df.at[i, 'out_error_message'] = data['out_error_message']
+
 
     
     #Function 2 for intersect locations with "and"
-    if " and " in str(df.at[i,'Location']):
+    elif " and " in str(df.at[i,'Location']):
         try: 
             parameters = {
             "Borough1": Borough,
@@ -166,6 +170,11 @@ for i, row in df.iterrows():
             print(i, str(df.at[i,'Location']), point)
         except Exception as e:
             print('Not geocoded: ' + str(df.at[i, 'Location']) + " " + data["out_error_message"])
+            errorLog["LineNumber"].append(i)
+            errorLog["Location"].append(address)
+            errorLog["Borough"].append(Borough)
+            errorLog["Errors"].append(data["out_error_message"])
+            df.at[i, 'out_error_message'] = data['out_error_message']
 
 errorLogDF = pd.DataFrame(errorLog)
 errorLogDF.to_csv("output CSV files/ErrorLog.csv", index=False)

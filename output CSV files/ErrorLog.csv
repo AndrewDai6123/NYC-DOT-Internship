@@ -1,0 +1,402 @@
+LineNumber,Location,Borough,Errors
+3,14th Avenue and 36th Street (New York Industries for the Blind),Brooklyn,'36TH STREET (NEW YORK INDUSTRIES' NOT RECOGNIZED. IS IT '  36 STREET'?         
+15,4th Avenue and 240' South of 3rd Street (mid-block),Brooklyn,'240' SOUTH OF 3RD STREET (MID-BL' NOT RECOGNIZED. THERE ARE NO SIMILAR NAMES   
+30,7th Avenue and 81st Street,Brooklyn,STREETS INTERSECT TWICE- FT BETWEEN INTERSECTIONS. COMPASS DIRECTION REQ'D      
+41,86th Street between West 8th Street and West 9th Street (mid-block),Brooklyn,'WEST 9TH STREET (MID-BLOCK)' NOT RECOGNIZED. IS IT 'WEST    9 STREET'?         
+42,"86th Street with McDonald Avenue, Avenue X and Shell Road",Brooklyn,"'MCDONALD AVENUE, AVENUE X' NOT RECOGNIZED. THERE ARE 006 SIMILAR NAMES.        "
+43,87th Street between 4th Avenue and 5th Avenue (mid-block),Brooklyn,'5TH AVENUE (MID-BLOCK)' NOT RECOGNIZED. THERE ARE 005 SIMILAR NAMES.           
+47,Adams Street between Fulton Street and Johnson Street (mid-block),Brooklyn,'JOHNSON STREET (MID-BLOCK)' NOT RECOGNIZED. THERE ARE 010 SIMILAR NAMES.       
+48,Adams Street/Boerum Place and Fulton Street,Brooklyn,'ADAMS STREET/BOERUM PLACE' NOT RECOGNIZED. THERE ARE 002 SIMILAR NAMES.        
+49,Adams Street/Boerum Place and Livingston Street,Brooklyn,'ADAMS STREET/BOERUM PLACE' NOT RECOGNIZED. THERE ARE 002 SIMILAR NAMES.        
+50,Atlantic Avenue and 134th Street,Brooklyn,'134TH STREET' NOT RECOGNIZED. THERE ARE NO SIMILAR NAMES                       
+62,Atlantic Avenue and Sheridan Avenue/Nichols Avenue,Brooklyn,'SHERIDAN AVENUE/NICHOLS AVENUE' NOT RECOGNIZED. THERE ARE 010 SIMILAR NAMES.   
+66,Atlantic Avenue with East New York Avenue and Williams Place,Brooklyn,INPUT DOES NOT DEFINE A STREET SEGMENT                                          
+95,Avenue V with Gravesend Neck Road and East 23rd Street,Brooklyn,                                                                                
+101,Bay Parkway with Avenue J and East 4th Street,Brooklyn,                                                                                
+103,Bedford Avenue between Avenue I and Campus Road (mid-block),Brooklyn,'CAMPUS ROAD (MID-BLOCK)' NOT RECOGNIZED. THERE ARE 006 SIMILAR NAMES.          
+107,Blake Avenue with Howard Avenue and Tapscott Street,Brooklyn,STREET COMBINATION NOT UNIQUE                                                   
+114,Broadway and Hewes Street,Brooklyn,STREETS INTERSECT TWICE- FT BETWEEN INTERSECTIONS. COMPASS DIRECTION REQ'D      
+119,Bushwick Avenue and Moore Street,Brooklyn,STREETS INTERSECT TWICE- FT BETWEEN INTERSECTIONS. COMPASS DIRECTION REQ'D      
+121,Caton Avenue and East 8th Street,Brooklyn,STREETS INTERSECT TWICE- FT BETWEEN INTERSECTIONS. COMPASS DIRECTION REQ'D      
+122,Caton Avenue with East 17th Street and Parade Place,Brooklyn,                                                                                
+127,Church Avenue and Dahill Avenue (New York Industries for the Blind),Brooklyn,'DAHILL AVENUE (NEW YORK INDUSTRI' NOT RECOGNIZED. THERE ARE 005 SIMILAR NAMES. 
+130,Church Avenue and McDonald Avenue (New York Industries for the Blind),Brooklyn,'MCDONALD AVENUE (NEW YORK INDUST' NOT RECOGNIZED. THERE ARE 006 SIMILAR NAMES. 
+132,Church Avenue with Buckingham Road and East 16th Street,Brooklyn,INPUT DOES NOT DEFINE A STREET SEGMENT                                          
+133,Church Avenue with East 32nd Street and Raleigh Place,Brooklyn,INPUT DOES NOT DEFINE A STREET SEGMENT                                          
+134,Church Avenue with Fairview Place and East 31st Street,Brooklyn,INPUT DOES NOT DEFINE A STREET SEGMENT                                          
+135,Clarkson Avenue and Kings County Hospital Entrance (200' West of East 37th Street),Brooklyn,'KINGS COUNTY HOSPITAL ENTRANCE (' NOT RECOGNIZED. THERE ARE 010 SIMILAR NAMES. 
+143,Coney Island Avenue between Avenue H and Glenwood Road (mid-block),Brooklyn,'GLENWOOD ROAD (MID-BLOCK)' NOT RECOGNIZED. THERE ARE 009 SIMILAR NAMES.        
+149,Court Street with Remsen and Joralemon Street,Brooklyn,'REMSEN' NOT RECOGNIZED. THERE ARE 002 SIMILAR NAMES.                           
+151,Cropsey Avenue and Bay 35th / 24th Avenue,Brooklyn,'BAY 35TH / 24TH AVENUE' NOT RECOGNIZED. THERE ARE 010 SIMILAR NAMES.           
+152,Cropsey Avenue and Bay 49th Street,Brooklyn,STREETS INTERSECT TWICE- FT BETWEEN INTERSECTIONS. COMPASS DIRECTION REQ'D      
+161,Driggs Avenue and Union Avenue (mid-block),Brooklyn,'UNION AVENUE (MID-BLOCK)' NOT RECOGNIZED. THERE ARE 010 SIMILAR NAMES.         
+164,East New York Avenue at Dean Street and Sackman Street,Brooklyn,'DEAN STREET&SACKMAN STREET' NOT RECOGNIZED. THERE ARE 005 SIMILAR NAMES.       
+165,"East New York Avenue with East 93rd Street, Ford Street and Rochester Avenue",Brooklyn,"'EAST 93RD STREET, FORD STREET' NOT RECOGNIZED. IS IT 'EAST   93 STREET'?       "
+169,Erskine Street and 180' South of Schroeders Avenue,Brooklyn,'180' SOUTH OF SCHROEDERS AVENUE' NOT RECOGNIZED. THERE ARE NO SIMILAR NAMES    
+174,Farragut Road with East 26th Street and Amersfort Place,Brooklyn,INPUT DOES NOT DEFINE A STREET SEGMENT                                          
+178,Flatbush Avenue and Beekman Place with Maple Street,Brooklyn,'FLATBUSH AVENUE & BEEKMAN PLACE' NOT RECOGNIZED. THERE ARE 010 SIMILAR NAMES.  
+180,Flatbush Avenue and Dekalb Avenue,Brooklyn,DEKALB AVENUE & FLATBUSH AVENUE DO NOT INTERSECT                                
+181,Flatbush Avenue and Glenwood Road (west leg),Brooklyn,'GLENWOOD ROAD (WEST LEG)' NOT RECOGNIZED. THERE ARE 009 SIMILAR NAMES.         
+184,Flatbush Avenue and Prospect Park Zoo (mid-block),Brooklyn,'PROSPECT PARK ZOO (MID-BLOCK)' NOT RECOGNIZED. THERE ARE 010 SIMILAR NAMES.    
+186,Flatbush Avenue and Willoughby Street,Brooklyn,WILLOUGHBY STREET & FLATBUSH AVENUE DO NOT INTERSECT                            
+188,Flatbush Avenue at Fulton Street and Nevins Street,Brooklyn,'FULTON STREET&NEVINS STREET' NOT RECOGNIZED. THERE ARE 004 SIMILAR NAMES.      
+189,Flatbush Avenue between Avenue U and Avenue V (mid-block),Brooklyn,'AVENUE V (MID-BLOCK)' NOT RECOGNIZED. THERE ARE 010 SIMILAR NAMES.             
+190,Flatbush Avenue with Brooklyn Avenue and Avenue J,Brooklyn,                                                                                
+191,Flatbush Avenue with Glenwood Road and East 29th Street (east leg),Brooklyn,'EAST 29TH STREET (EAST LEG)' NOT RECOGNIZED. IS IT 'EAST   29 STREET'?         
+192,Flatbush Avenue with Nostrand Avenue and Hillel Place,Brooklyn,INPUT DOES NOT DEFINE A STREET SEGMENT                                          
+200,Flushing Avenue with Nostrand Avenue and Lee Avenue,Brooklyn,INPUT DOES NOT DEFINE A STREET SEGMENT                                          
+202,Fort Hamilton Parkway with 6th Avenue and 84th Street,Brooklyn,                                                                                
+205,Franklin Avenue and Lafayette Avenue,Brooklyn,STREETS INTERSECT TWICE- FT BETWEEN INTERSECTIONS. COMPASS DIRECTION REQ'D      
+206,Ft. Hamilton Parkway with 44th Street and New Utrecht Avenue,Brooklyn,                                                                                
+213,Fulton Street and Kingston Avenue (mid-block),Brooklyn,'KINGSTON AVENUE (MID-BLOCK)' NOT RECOGNIZED. THERE ARE 010 SIMILAR NAMES.      
+219,Fulton Street and Thomas S Boyland Street (Hopkinson Avenue),Brooklyn,'THOMAS S BOYLAND STREET (HOPKINS' NOT RECOGNIZED. THERE ARE 010 SIMILAR NAMES. 
+223,Fulton Street with Lafayette Avenue and Fort Greene Place,Brooklyn,                                                                                
+224,Fulton Street with Ralph Avenue and Macdougal Street,Brooklyn,                                                                                
+225,Gerritsen Avenue and Avenue R (South Leg),Brooklyn,'AVENUE R (SOUTH LEG)' NOT RECOGNIZED. THERE ARE 010 SIMILAR NAMES.             
+226,Gerritsen Avenue and Avenue S,Brooklyn,STREETS INTERSECT TWICE- FT BETWEEN INTERSECTIONS. COMPASS DIRECTION REQ'D      
+230,Graham Avenue and Maujer Street (500' South),Brooklyn,'MAUJER STREET (500' SOUTH)' NOT RECOGNIZED. THERE ARE 002 SIMILAR NAMES.       
+232,Graham Avenue with Richardson Street and Herbert Street,Brooklyn,                                                                                
+233,Grand Army Plaza (North) and Pedestrian Crossing (mid-block),Brooklyn,'GRAND ARMY PLAZA (NORTH)' NOT RECOGNIZED. THERE ARE 010 SIMILAR NAMES.         
+234,Grand Street with Waterbury Street and Olive Street,Brooklyn,                                                                                
+236,Hillel Place and Campus Road (North Side),Brooklyn,'CAMPUS ROAD (NORTH SIDE)' NOT RECOGNIZED. THERE ARE 006 SIMILAR NAMES.         
+239,Jay Street and 165' S/O Tillary Street,Brooklyn,'165' S/O TILLARY STREET' NOT RECOGNIZED. THERE ARE NO SIMILAR NAMES            
+240,Jay Street and Metrotech Roadway (North Leg),Brooklyn,'METROTECH ROADWAY (NORTH LEG)' NOT RECOGNIZED. THERE ARE 007 SIMILAR NAMES.    
+241,Jay Street and Metrotech Roadway (South Leg),Brooklyn,'METROTECH ROADWAY (SOUTH LEG)' NOT RECOGNIZED. THERE ARE 007 SIMILAR NAMES.    
+243,Jay Street/Smith Street and Fulton Street,Brooklyn,'JAY STREET/SMITH STREET' NOT RECOGNIZED. THERE ARE 003 SIMILAR NAMES.          
+251,Lafayette Avenue and Emerson Place (mid-block),Brooklyn,'EMERSON PLACE (MID-BLOCK)' NOT RECOGNIZED. THERE ARE 002 SIMILAR NAMES.        
+253,Linden Boulevard and Christopher Avenue (mid-block),Brooklyn,'CHRISTOPHER AVENUE (MID-BLOCK)' NOT RECOGNIZED. THERE ARE 010 SIMILAR NAMES.   
+263,Myrtle Avenue and Marcus Garvey Boulevard (Sumner Avenue),Brooklyn,'MARCUS GARVEY BOULEVARD (SUMNER' NOT RECOGNIZED. THERE ARE 010 SIMILAR NAMES.  
+264,Myrtle Avenue and Pedestrian Crossing (Hudson Walk) (mid-block),Brooklyn,'PEDESTRIAN CROSSING (HUDSON WALK' NOT RECOGNIZED. THERE ARE 007 SIMILAR NAMES. 
+267,Neptune Avenue and Brighton 8th Street,Brooklyn,STREETS INTERSECT TWICE- FT BETWEEN INTERSECTIONS. COMPASS DIRECTION REQ'D      
+272,Neptune Avenue with Shell Road and West 8th Street,Brooklyn,INPUT DOES NOT DEFINE A STREET SEGMENT                                          
+275,New Lots Avenue with Miller Avenue and Riverdale Avenue,Brooklyn,                                                                                
+278,North Conduit Boulevard and Grant Avenue,Brooklyn,STREETS INTERSECT TWICE- FT BETWEEN INTERSECTIONS. COMPASS DIRECTION REQ'D      
+286,Nostrand Avenue and Willoughby Avenue,Brooklyn,STREETS INTERSECT TWICE- FT BETWEEN INTERSECTIONS. COMPASS DIRECTION REQ'D      
+287,Ocean Avenue and Prospect Park North Entrance (mid-block),Brooklyn,'PROSPECT PARK NORTH ENTRANCE (MI' NOT RECOGNIZED. THERE ARE 010 SIMILAR NAMES. 
+288,Ocean Avenue and Prospect Park South Entrance (mid-block),Brooklyn,'PROSPECT PARK SOUTH ENTRANCE (MI' NOT RECOGNIZED. THERE ARE 010 SIMILAR NAMES. 
+294,Ocean Parkway and Church Avenue,Brooklyn,STREETS INTERSECT MORE THAN TWICE - USE NODE AS INPUT                           
+297,"Old Fulton Street with Water Street, Everit Street and Furman Street",Brooklyn,"'WATER STREET, EVERIT STREET' NOT RECOGNIZED. THERE ARE 006 SIMILAR NAMES.      "
+298,Park Avenue and Saint Edwards Street,Brooklyn,STREETS INTERSECT MORE THAN TWICE - USE NODE AS INPUT                           
+300,Pennsylvania Avenue and Freeport Loop (North Leg),Brooklyn,'FREEPORT LOOP (NORTH LEG)' NOT RECOGNIZED. THERE ARE 010 SIMILAR NAMES.        
+307,Ralph Avenue between Avenue K and Avenue L (mid-block),Brooklyn,'AVENUE L (MID-BLOCK)' NOT RECOGNIZED. THERE ARE 010 SIMILAR NAMES.             
+308,Ralph Avenue with Avenue M and East 65th Street,Brooklyn,                                                                                
+309,Ralph Avenue with Beverly Road and Avenue B,Brooklyn,                                                                                
+311,Remsen Avenue with Clarkson Avenue (South Leg) and East 56th Street,Brooklyn,'CLARKSON AVENUE (SOUTH LEG)' NOT RECOGNIZED. THERE ARE 010 SIMILAR NAMES.      
+316,Rockaway Pkwy at Brookdale Hospital entrance (w of Linden Blvd),Brooklyn,'BROOKDALE HOSPITAL ENTRANCE (W O' NOT RECOGNIZED. THERE ARE 010 SIMILAR NAMES. 
+321,Rutland Road with East 52nd Street and Remsen Avenue,Brooklyn,STREET COMBINATION NOT UNIQUE                                                   
+325,Shore Parkway and BJ's Driveway (1752 Shore Parkway),Brooklyn,'BJ'S DRIVEWAY (1752 SHORE PARKWA' NOT RECOGNIZED. THERE ARE NO SIMILAR NAMES   
+326,Shore Parkway and Voorhies Avenue,Brooklyn,STREETS INTERSECT TWICE- FT BETWEEN INTERSECTIONS. COMPASS DIRECTION REQ'D      
+330,South Conduit Boulevard and Grant Avenue,Brooklyn,STREETS INTERSECT TWICE- FT BETWEEN INTERSECTIONS. COMPASS DIRECTION REQ'D      
+331,South Conduit Boulevard and Sheridan Avenue,Brooklyn,STREETS INTERSECT TWICE- FT BETWEEN INTERSECTIONS. COMPASS DIRECTION REQ'D      
+334,Stillwell Avenue between Bay 50th Street and Harway Avenue (mid-block),Brooklyn,'HARWAY AVENUE (MID-BLOCK)' NOT RECOGNIZED. THERE ARE 010 SIMILAR NAMES.        
+335,Stillwell Avenue with 25th Avenue and 84th Street,Brooklyn,                                                                                
+345,West 12th Street between Surf Avenue and Neptune Avenue (mid-block),Brooklyn,'NEPTUNE AVENUE (MID-BLOCK)' NOT RECOGNIZED. THERE ARE 003 SIMILAR NAMES.       
+357,1st Avenue and East 107th Street (mid-block),Manhattan,'EAST 107TH STREET (MID-BLOCK)' NOT RECOGNIZED. THERE ARE 003 SIMILAR NAMES.    
+359,1st Avenue and East 122nd Street,Manhattan,EAST  122 STREET &    1 AVENUE DO NOT INTERSECT                                 
+370,1st Avenue and East 28th Street,Manhattan,STREETS INTERSECT TWICE- FT BETWEEN INTERSECTIONS. COMPASS DIRECTION REQ'D      
+376,2nd Avenue and East 98th Street,Manhattan,EAST   98 STREET &    2 AVENUE DO NOT INTERSECT                                 
+377,2nd Avenue and Pedestrian Crossing (East 107th Street),Manhattan,'PEDESTRIAN CROSSING (EAST 107TH' NOT RECOGNIZED. THERE ARE 010 SIMILAR NAMES.  
+378,2nd Avenue and Pedestrian Crossing (East 114th Street),Manhattan,'PEDESTRIAN CROSSING (EAST 114TH' NOT RECOGNIZED. THERE ARE 010 SIMILAR NAMES.  
+379,2nd Avenue and Stuyvesant Square (East 16th Street),Manhattan,'STUYVESANT SQUARE (EAST 16TH STR' NOT RECOGNIZED. THERE ARE 009 SIMILAR NAMES. 
+381,3rd Avenue and East 59th Street (Lighthouse),Manhattan,'EAST 59TH STREET (LIGHTHOUSE)' NOT RECOGNIZED. THERE ARE 002 SIMILAR NAMES.    
+384,3rd Avenue and Pedestrian Crossing at East 113th Street,Manhattan,'3RD AVENUE & PEDESTRIAN CROSSING' NOT RECOGNIZED. THERE ARE 010 SIMILAR NAMES. 
+385,3rd Avenue and Pedestrian Crossing at East 114th Street,Manhattan,'3RD AVENUE & PEDESTRIAN CROSSING' NOT RECOGNIZED. THERE ARE 010 SIMILAR NAMES. 
+387,5th Avenue and 58th Street and Grand Army Plaza,Manhattan,'5TH AVENUE & 58TH STREET' NOT RECOGNIZED. THERE ARE 010 SIMILAR NAMES.         
+390,5th Avenue at Pedestrian Crossing (West/East 113th Street),Manhattan,STREET NAME CANNOT BE NORMALIZED                                                
+391,5th Avenue with East 124th and West 124th Streets,Manhattan,'WEST 124TH STREETS' NOT RECOGNIZED. IS IT 'WEST  124 STREET'?                  
+392,5th Avenue with East and West 8th Street,Manhattan,'EAST' NOT RECOGNIZED. THERE ARE 010 SIMILAR NAMES.                             
+393,6th Avenue / Avenue of The Americas and West 9th Street,Manhattan,'6TH AVENUE / AVENUE OF THE AMERI' NOT RECOGNIZED. THERE ARE 006 SIMILAR NAMES. 
+400,7th Avenue with Bleecker Street and Barrow Street,Manhattan,INPUT DOES NOT DEFINE A STREET SEGMENT                                          
+401,"7th Avenue with Varick Street, Clarkson Street and Carmine Street",Manhattan,"'VARICK STREET, CLARKSON STREET' NOT RECOGNIZED. IS IT 'VARICK STREET'?         "
+409,8th Avenue between West 31st and West 32nd Streets,Manhattan,'WEST 32ND STREETS' NOT RECOGNIZED. IS IT 'WEST   32 STREET'?                   
+414,Amsterdam Avenue and 250' South of West 138th Street (mid-block),Manhattan,'250' SOUTH OF WEST 138TH STREET' NOT RECOGNIZED. THERE ARE NO SIMILAR NAMES    
+415,Amsterdam Avenue and Cathedral Parkway (West 110th Street),Manhattan,'CATHEDRAL PARKWAY (WEST 110TH ST' NOT RECOGNIZED. THERE ARE 004 SIMILAR NAMES. 
+416,Amsterdam Avenue and Pedestrian crossing 200' North of West 62nd Street,Manhattan,'PEDESTRIAN CROSSING 200' NORTH O' NOT RECOGNIZED. THERE ARE 010 SIMILAR NAMES. 
+426,Amsterdam Avenue at Pedestrian Crossing (West 117th Street),Manhattan,'PEDESTRIAN CROSSING (WEST 117TH' NOT RECOGNIZED. THERE ARE 010 SIMILAR NAMES.  
+427,Amsterdam Avenue pedestrian crossing (btwn West 123rd and La Salle Sts),Manhattan,'AMSTERDAM AVENUE PEDESTRIAN CROS' NOT RECOGNIZED. THERE ARE 004 SIMILAR NAMES. 
+430,Avenue D and East 11th Street,Manhattan,EAST   11 STREET & AVENUE D DO NOT INTERSECT                                    
+432,Avenue of the Americas and 23rd Street (Selis Manor),Manhattan,'23RD STREET (SELIS MANOR)' NOT RECOGNIZED. THERE ARE 003 SIMILAR NAMES.        
+437,Avenue of the Americas with Dominick Street  and Clark Street,Manhattan,'CLARK STREET' NOT RECOGNIZED. THERE ARE 010 SIMILAR NAMES.                     
+440,Beekman Street and Williams Street,Manhattan,'WILLIAMS STREET' NOT RECOGNIZED. THERE ARE 010 SIMILAR NAMES.                  
+441,Broadway and 5th Avenue between 23rd Street and 24th Street,Manhattan,'BROADWAY & 5TH AVENUE' NOT RECOGNIZED. THERE ARE 010 SIMILAR NAMES.            
+442,Broadway and 7th Avenue with West 43rd Street,Manhattan,'BROADWAY & 7TH AVENUE' NOT RECOGNIZED. THERE ARE 010 SIMILAR NAMES.            
+443,Broadway and 7th Avenue with West 44th Street,Manhattan,'BROADWAY & 7TH AVENUE' NOT RECOGNIZED. THERE ARE 010 SIMILAR NAMES.            
+444,Broadway and 7th Avenue with West 45th Street,Manhattan,'BROADWAY & 7TH AVENUE' NOT RECOGNIZED. THERE ARE 010 SIMILAR NAMES.            
+445,Broadway and 7th Avenue with West 46th Street,Manhattan,'BROADWAY & 7TH AVENUE' NOT RECOGNIZED. THERE ARE 010 SIMILAR NAMES.            
+447,Broadway and Bowling Green,Manhattan,BOWLING GREEN & BROADWAY DO NOT INTERSECT                                       
+448,Broadway and Columbus Avenue with West 65 Street,Manhattan,'BROADWAY & COLUMBUS AVENUE' NOT RECOGNIZED. THERE ARE 010 SIMILAR NAMES.       
+449,Broadway and Sherman Avenue,Manhattan,STREETS INTERSECT TWICE- FT BETWEEN INTERSECTIONS. COMPASS DIRECTION REQ'D      
+451,Broadway and West 117th Street (midblock crossing),Manhattan,'WEST 117TH STREET (MIDBLOCK CROS' NOT RECOGNIZED. IS IT 'WEST  117 STREET'?    
+463,Broadway and West 23rd Street,Manhattan,WEST   23 STREET & BROADWAY DO NOT INTERSECT                                    
+471,Broadway at Cathedral Parkway (West 110th Street),Manhattan,'CATHEDRAL PARKWAY (WEST 110TH ST' NOT RECOGNIZED. THERE ARE 004 SIMILAR NAMES. 
+473,Broadway with Dyckman Street and Riverside Drive,Manhattan,                                                                                
+474,Broadway with West 126th Street and 129th Street,Manhattan,INPUT DOES NOT DEFINE A STREET SEGMENT                                          
+475,Broadway with West 218th Street and 10th Avenue,Manhattan,                                                                                
+476,Central Park West and Pedestrian Crossing (West 79th Street),Manhattan,'PEDESTRIAN CROSSING (WEST 79TH S' NOT RECOGNIZED. THERE ARE 010 SIMILAR NAMES. 
+478,Central Park West and West 65th Street (North/East/West Legs-Phase II),Manhattan,'WEST 65TH STREET (NORTH/EAST/WES' NOT RECOGNIZED. IS IT 'WEST   65 STREET'?    
+479,Central Park West and West 65th Street (South Leg-Phase I),Manhattan,'WEST 65TH STREET (SOUTH LEG-PHAS' NOT RECOGNIZED. IS IT 'WEST   65 STREET'?    
+483,Centre Street and Brooklyn Bridge Exit,Manhattan,BROOKLYN BRIDGE EXIT RAMP & CENTRE STREET DO NOT INTERSECT                      
+485,Centre Street and Franklin Walk,Manhattan,'FRANKLIN WALK' NOT RECOGNIZED. THERE ARE 010 SIMILAR NAMES.                    
+487,Church Street with Franklin Street and Avenue of the Americas,Manhattan,INPUT DOES NOT DEFINE A STREET SEGMENT                                          
+493,Columbus Avenue and West 98th Street Pedestrian Crossing,Manhattan,'WEST 98TH STREET PEDESTRIAN CROS' NOT RECOGNIZED. IS IT 'WEST   98 STREET'?    
+495,Columbus Avenue midblock crossing between West 100th Street and West 104th Street (West 102nd Street),Manhattan,'COLUMBUS AVENUE MIDBLOCK CROSSIN' NOT RECOGNIZED. THERE ARE 009 SIMILAR NAMES. 
+496,Columbus Avenue midblock crossing between West 100th Street and West 104th Street (West 103rd Street),Manhattan,'COLUMBUS AVENUE MIDBLOCK CROSSIN' NOT RECOGNIZED. THERE ARE 009 SIMILAR NAMES. 
+497,Columbus Avenue midblock crossing between West 97th Street and West 100th Street (West 99th Street),Manhattan,'COLUMBUS AVENUE MIDBLOCK CROSSIN' NOT RECOGNIZED. THERE ARE 009 SIMILAR NAMES. 
+499,East 116th Street with Manhattan Center for Science and Math and East River Plaza Mall,Manhattan,'MANHATTAN CENTER FOR SCIENCE & M' NOT RECOGNIZED. THERE ARE 010 SIMILAR NAMES. 
+500,East 37th Street and FDR Drive,Manhattan,STREETS INTERSECT TWICE- FT BETWEEN INTERSECTIONS. COMPASS DIRECTION REQ'D      
+504,East Houston Street with Avenue D and Columbia Street,Manhattan,INPUT DOES NOT DEFINE A STREET SEGMENT                                          
+505,East Houston Street with Clinton Street and Avenue B,Manhattan,INPUT DOES NOT DEFINE A STREET SEGMENT                                          
+506,East Houston Street with Essex Street and Avenue A,Manhattan,INPUT DOES NOT DEFINE A STREET SEGMENT                                          
+510,Fifth Avenue and West 99th Street (pedestrian crossing),Manhattan,'WEST 99TH STREET (PEDESTRIAN CRO' NOT RECOGNIZED. IS IT 'WEST   99 STREET'?    
+511,Fifth Avenue pedestrian crossing (btwn East 132nd and East 135th Streets),Manhattan,'FIFTH AVENUE PEDESTRIAN CROSSING' NOT RECOGNIZED. THERE ARE 006 SIMILAR NAMES. 
+516,Fort Washington Avenue between 165th Street and 168th Street (mid-block),Manhattan,'168TH STREET (MID-BLOCK)' NOT RECOGNIZED. THERE ARE 002 SIMILAR NAMES.         
+517,Frederick Douglass Boulevard (8th Avenue) and West 125th Street,Manhattan,STREET NAME CANNOT BE NORMALIZED                                                
+518,Frederick Douglass Boulevard and West 156th Street,Manhattan,WEST  156 STREET & FREDERICK DOUGLASS BOULEVARD DO NOT INTERSECT                
+524,Grand Street and Ridge Street,Manhattan,RIDGE STREET & GRAND STREET DO NOT INTERSECT                                    
+525,Greenwich Street and Barclay Street,Manhattan,STREETS INTERSECT TWICE- FT BETWEEN INTERSECTIONS. COMPASS DIRECTION REQ'D      
+527,Greenwich Street and Cortlandt Way (mid-block),Manhattan,'CORTLANDT WAY (MID-BLOCK)' NOT RECOGNIZED. THERE ARE 010 SIMILAR NAMES.        
+529,La Guardia Place (West Broadway) and Washington Square South,Manhattan,'LA GUARDIA PLACE (WEST BROADWAY)' NOT RECOGNIZED. THERE ARE 010 SIMILAR NAMES. 
+530,Lafayette Street and Pedestrian crossing (Pearl Street),Manhattan,'PEDESTRIAN CROSSING (PEARL STREE' NOT RECOGNIZED. THERE ARE 010 SIMILAR NAMES. 
+535,Lexington Avenue and East 113th Street (Pedestrian Crossing),Manhattan,'EAST 113TH STREET (PEDESTRIAN CR' NOT RECOGNIZED. THERE ARE 010 SIMILAR NAMES. 
+536,Lexington Avenue and East 114th Street (Pedestrian Crossing),Manhattan,'EAST 114TH STREET (PEDESTRIAN CR' NOT RECOGNIZED. THERE ARE 010 SIMILAR NAMES. 
+542,Lexington Avenue and East 59th Street (Lighthouse),Manhattan,'EAST 59TH STREET (LIGHTHOUSE)' NOT RECOGNIZED. THERE ARE 002 SIMILAR NAMES.    
+543,Madison Avenue and East 100th Street pedestrian crossing (mid-block),Manhattan,'EAST 100TH STREET PEDESTRIAN CRO' NOT RECOGNIZED. IS IT 'EAST  100 STREET'?    
+544,Madison Avenue and East 113th Street pedestrian crossing (mid-block),Manhattan,'EAST 113TH STREET PEDESTRIAN CRO' NOT RECOGNIZED. IS IT 'EAST  113 STREET'?    
+545,Madison Avenue and East 114th Street pedestrian crossing (mid-block),Manhattan,'EAST 114TH STREET PEDESTRIAN CRO' NOT RECOGNIZED. THERE ARE 002 SIMILAR NAMES. 
+547,Madison Avenue and East 133rd Street,Manhattan,EAST  133 STREET & MADISON AVENUE DO NOT INTERSECT                              
+548,Madison Avenue and East 134th Street,Manhattan,EAST  134 STREET & MADISON AVENUE DO NOT INTERSECT                              
+551,Madison Street and 300' west of Jackson Street,Manhattan,'300' WEST OF JACKSON STREET' NOT RECOGNIZED. THERE ARE NO SIMILAR NAMES        
+554,Malcolm X Boulevard (Lenox Avenue) and West 111th Street,Manhattan,'MALCOLM X BOULEVARD (LENOX AVENU' NOT RECOGNIZED. THERE ARE 002 SIMILAR NAMES. 
+555,Malcolm X Boulevard (Lenox Avenue) and West 145th Street,Manhattan,'MALCOLM X BOULEVARD (LENOX AVENU' NOT RECOGNIZED. THERE ARE 002 SIMILAR NAMES. 
+556,Murray Street and 270' West of West Street,Manhattan,'270' WEST OF WEST STREET' NOT RECOGNIZED. THERE ARE NO SIMILAR NAMES           
+557,Park Avenue  and East 113th Street pedestrian crossing (mid-block),Manhattan,'EAST 113TH STREET PEDESTRIAN CRO' NOT RECOGNIZED. IS IT 'EAST  113 STREET'?    
+561,Park Avenue and East 59th Street (Lighthouse),Manhattan,'EAST 59TH STREET (LIGHTHOUSE)' NOT RECOGNIZED. THERE ARE 002 SIMILAR NAMES.    
+567,Riverside Drive and 200’ North of West 181st Street (mid-block),Manhattan,'200? NORTH OF WEST 181ST STREET' NOT RECOGNIZED. IS IT ' 200 STREET'?          
+569,Riverside Drive and West 101st Street (mid-block),Manhattan,'WEST 101ST STREET (MID-BLOCK)' NOT RECOGNIZED. IS IT 'WEST  101 STREET'?       
+571,Riverside Drive and West 106th Street,Manhattan,STREETS INTERSECT TWICE- FT BETWEEN INTERSECTIONS. COMPASS DIRECTION REQ'D      
+572,Riverside Drive and West 112th Street (midblock crossing),Manhattan,'WEST 112TH STREET (MIDBLOCK CROS' NOT RECOGNIZED. IS IT 'WEST  112 STREET'?    
+577,Riverside Drive and West 99th Street (mid-block),Manhattan,'WEST 99TH STREET (MID-BLOCK)' NOT RECOGNIZED. IS IT 'WEST   99 STREET'?        
+579,Riverside Drive Northbound and Grants Tomb 450' North of West 122nd Street,Manhattan,'RIVERSIDE DRIVE NORTHBOUND' NOT RECOGNIZED. THERE ARE 010 SIMILAR NAMES.       
+581,Riverside Drive Southbound and 450' North Of West 122nd Street,Manhattan,'RIVERSIDE DRIVE SOUTHBOUND' NOT RECOGNIZED. THERE ARE 010 SIMILAR NAMES.       
+587,St Nicholas Avenue and Pedestrian Crossing between West 130th and West 133rd Streets,Manhattan,'ST NICHOLAS AVENUE & PEDESTRIAN' NOT RECOGNIZED. THERE ARE 010 SIMILAR NAMES.  
+589,St Nicholas Avenue and West 156th Street,Manhattan,WEST  156 STREET & ST NICHOLAS AVENUE DO NOT INTERSECT                          
+602,Water Street and Fulton Street,Manhattan,STREETS INTERSECT TWICE- FT BETWEEN INTERSECTIONS. COMPASS DIRECTION REQ'D      
+603,West 100th Street and Manhatan Avenue,Manhattan,'MANHATAN AVENUE' NOT RECOGNIZED. THERE ARE 010 SIMILAR NAMES.                  
+604,West 106th Street between Amsterdam Avenue and Columbus Avenue (mid-block),Manhattan,'COLUMBUS AVENUE (MID-BLOCK)' NOT RECOGNIZED. THERE ARE 009 SIMILAR NAMES.      
+605,West 112th Street between Lenox Avenue and 5th Avenue (mid-block),Manhattan,'5TH AVENUE (MID-BLOCK)' NOT RECOGNIZED. THERE ARE 010 SIMILAR NAMES.           
+606,West 125th Street and 12th Avenue,Manhattan,STREETS INTERSECT TWICE- FT BETWEEN INTERSECTIONS. COMPASS DIRECTION REQ'D      
+607,West 125th Street at 400’ east of Frederick Douglass Boulevard,Manhattan,'400? EAST OF FREDERICK DOUGLASS' NOT RECOGNIZED. THERE ARE NO SIMILAR NAMES    
+608,West 125th Street at 400’ west of Lenox Avenue,Manhattan,'400? WEST OF LENOX AVENUE' NOT RECOGNIZED. THERE ARE NO SIMILAR NAMES          
+609,West 125th Street at 450’ west of 5th Avenue,Manhattan,'450? WEST OF 5TH AVENUE' NOT RECOGNIZED. THERE ARE NO SIMILAR NAMES            
+610,West 125th Street with St Clair Place and West 129th Street,Manhattan,INPUT DOES NOT DEFINE A STREET SEGMENT                                          
+611,West 155th Street with Edgecomb Avenue and HRD / St Nicholas Place,Manhattan,'HRD / ST NICHOLAS PLACE' NOT RECOGNIZED. THERE ARE 010 SIMILAR NAMES.          
+612,West 157th Street with Edward Morgan Place and Broadway,Manhattan,                                                                                
+613,West 23rd Street between 5th Avenue and 6th Avenue (Mid-block),Manhattan,'6TH AVENUE (MID-BLOCK)' NOT RECOGNIZED. THERE ARE 006 SIMILAR NAMES.           
+614,West 34th Street between 7th and 8th Avenues,Manhattan,'7TH' NOT RECOGNIZED. THERE ARE 005 SIMILAR NAMES.                              
+615,West 34th Street between 8th Avenue and 9th Avenue (mid-block),Manhattan,'9TH AVENUE (MID-BLOCK)' NOT RECOGNIZED. THERE ARE 003 SIMILAR NAMES.           
+616,"West 34th Street between Broadway, 6th and 7th Avenues",Manhattan,"'BROADWAY, 6TH' NOT RECOGNIZED. THERE ARE 010 SIMILAR NAMES.                    "
+617,West 3rd Street at Wooster Street (1 Washington Square Village),Manhattan,STREET NAME CANNOT BE NORMALIZED                                                
+621,West 53rd Street between 5th and 6th Avenues,Manhattan,'5TH' NOT RECOGNIZED. THERE ARE 010 SIMILAR NAMES.                              
+622,West 57th Street between 6th Avenue and 5th Avenue (300' East of 6th Avenue) (mid-block),Manhattan,'5TH AVENUE (300' EAST OF 6TH AVE' NOT RECOGNIZED. THERE ARE 010 SIMILAR NAMES. 
+623,West 57th Street between 6th Avenue and 7th Avenue (Mid-block),Manhattan,'7TH AVENUE (MID-BLOCK)' NOT RECOGNIZED. THERE ARE 005 SIMILAR NAMES.           
+624,West 57th Street between 8th Avenue and 9th Avenue (Mid-block),Manhattan,'9TH AVENUE (MID-BLOCK)' NOT RECOGNIZED. THERE ARE 003 SIMILAR NAMES.           
+625,West End Avenue and Pedestrian Crossing (120’ north of West 67th Street),Manhattan,'PEDESTRIAN CROSSING (120? NORTH' NOT RECOGNIZED. THERE ARE 010 SIMILAR NAMES.  
+626,West End Avenue and Pedestrian Crossing (West 69th Street),Manhattan,'PEDESTRIAN CROSSING (WEST 69TH S' NOT RECOGNIZED. THERE ARE 010 SIMILAR NAMES. 
+634,West Street and Horatio Street (mid-block),Manhattan,'HORATIO STREET (MID-BLOCK)' NOT RECOGNIZED. THERE ARE 002 SIMILAR NAMES.       
+637,York Avenue with FDR Drive Entrance/Exit Ramps and East 63rd Street,Manhattan,'FDR DRIVE ENTRANCE/EXIT RAMPS' NOT RECOGNIZED. THERE ARE 010 SIMILAR NAMES.    
+639,101st Avenue and 110th Street,Queens,STREETS INTERSECT TWICE- FT BETWEEN INTERSECTIONS. COMPASS DIRECTION REQ'D      
+648,109th Avenue with 130th Street and 129th Street,Queens,                                                                                
+649,110th Avenue and Sutphin Boulevard,Queens,STREETS INTERSECT TWICE- FT BETWEEN INTERSECTIONS. COMPASS DIRECTION REQ'D      
+650,111th Avenue with 126th Street and Hawtree Creek Road,Queens,                                                                                
+654,147th Avenue and 184th Street,Queens,STREETS INTERSECT TWICE- FT BETWEEN INTERSECTIONS. COMPASS DIRECTION REQ'D      
+656,188th Street and 186th Lane,Queens,STREETS INTERSECT MORE THAN TWICE - USE NODE AS INPUT                           
+657,20th Avenue and Whitestone Expressway (NorthBound Service Road),Queens,'WHITESTONE EXPRESSWAY (NORTHBOUN' NOT RECOGNIZED. THERE ARE 010 SIMILAR NAMES. 
+658,20th Avenue and Whitestone Expressway (Southbound Service Road),Queens,'WHITESTONE EXPRESSWAY (SOUTHBOUN' NOT RECOGNIZED. THERE ARE 010 SIMILAR NAMES. 
+659,212th Street between 18th Avenue and 23rd Avenue) (mid-block),Queens,'23RD AVENUE) (MID-BLOCK)' NOT RECOGNIZED. THERE ARE 007 SIMILAR NAMES.         
+661,21st Street and 21st Road,Queens,STREETS INTERSECT TWICE- FT BETWEEN INTERSECTIONS. COMPASS DIRECTION REQ'D      
+670,21st Street with Astoria Boulevard and 27th Avenue,Queens,INPUT DOES NOT DEFINE A STREET SEGMENT                                          
+674,27th Avenue and 8th Street (Goodwill Industries),Queens,STREET NAME CANNOT BE NORMALIZED                                                
+682,32nd Avenue with 93rd Street and Jackson Mill Road,Queens,INPUT DOES NOT DEFINE A STREET SEGMENT                                          
+683,35th Avenue with 70th Street and Leverich Street,Queens,INPUT DOES NOT DEFINE A STREET SEGMENT                                          
+692,39th Avenue and 52nd Street,Queens,STREETS INTERSECT TWICE- FT BETWEEN INTERSECTIONS. COMPASS DIRECTION REQ'D      
+699,48th Avenue and 211th Street,Queens,STREETS INTERSECT TWICE- FT BETWEEN INTERSECTIONS. COMPASS DIRECTION REQ'D      
+701,64th Avenue (East Leg) and 188th Street,Queens,'64TH AVENUE (EAST LEG)' NOT RECOGNIZED. THERE ARE 007 SIMILAR NAMES.           
+702,64th Avenue (North Leg) and 188th Street,Queens,'64TH AVENUE (NORTH LEG)' NOT RECOGNIZED. THERE ARE 007 SIMILAR NAMES.          
+703,64th Avenue (South Leg) and 188th Street,Queens,'64TH AVENUE (SOUTH LEG)' NOT RECOGNIZED. THERE ARE 007 SIMILAR NAMES.          
+704,64th Avenue (West Leg) and 188th Street,Queens,'64TH AVENUE (WEST LEG)' NOT RECOGNIZED. THERE ARE 007 SIMILAR NAMES.           
+710,92nd Street between 57th Avenue and 59th Avenue (mid-block),Queens,'59TH AVENUE (MID-BLOCK)' NOT RECOGNIZED. THERE ARE 010 SIMILAR NAMES.          
+712,Astoria Boulevard (South) and 43rd Street,Queens,'ASTORIA BOULEVARD (SOUTH)' NOT RECOGNIZED. THERE ARE 010 SIMILAR NAMES.        
+713,Astoria Boulevard and 38th Street,Queens,STREETS INTERSECT TWICE- FT BETWEEN INTERSECTIONS. COMPASS DIRECTION REQ'D      
+721,Austin Street and 70th Street,Queens,  70 STREET & AUSTIN STREET DO NOT INTERSECT                                    
+722,Austin Street with 71st Avenue and Continental Avenue,Queens,INPUT DOES NOT DEFINE A STREET SEGMENT                                          
+723,Beach 102nd Street and Rockaway Beach Blvd West Leg,Queens,'ROCKAWAY BEACH BLVD WEST LEG' NOT RECOGNIZED. THERE ARE 010 SIMILAR NAMES.     
+725,Booth Memorial Avenue and 160th Road,Queens, 160 ROAD & BOOTH MEMORIAL AVENUE DO NOT INTERSECT                              
+729,Broadway and St James Avenue,Queens,STREETS INTERSECT TWICE- FT BETWEEN INTERSECTIONS. COMPASS DIRECTION REQ'D      
+730,Broadway between 49th Street and 51st Street (mid-block),Queens,'51ST STREET (MID-BLOCK)' NOT RECOGNIZED. THERE ARE 006 SIMILAR NAMES.          
+736,Corona Avenue and 94th Street,Queens,STREETS INTERSECT TWICE- FT BETWEEN INTERSECTIONS. COMPASS DIRECTION REQ'D      
+737,Corona Avenue with 108th Street and 53rd Avenue,Queens,                                                                                
+738,Corona Avenue with 50th Avenue and 106th Street,Queens,                                                                                
+739,Corona Avenue with Otis Avenue and 54th Avenue,Queens,                                                                                
+740,Crescent Street and 30th Road,Queens,STREETS INTERSECT TWICE- FT BETWEEN INTERSECTIONS. COMPASS DIRECTION REQ'D      
+746,Empire Avenue with Reads Lane and Balsam Court,Queens,INPUT DOES NOT DEFINE A STREET SEGMENT                                          
+748,Francis Lewis Boulevard and 35th Avenue,Queens,STREETS INTERSECT MORE THAN TWICE - USE NODE AS INPUT                           
+750,Fresh Pond Road and 60th Road,Queens,STREETS INTERSECT TWICE- FT BETWEEN INTERSECTIONS. COMPASS DIRECTION REQ'D      
+752,Grand Avenue and 74th Street,Queens,STREETS INTERSECT TWICE- FT BETWEEN INTERSECTIONS. COMPASS DIRECTION REQ'D      
+753,Grand Avenue with Haspel Street and Van Kleeck Street,Queens,                                                                                
+756,Grand Central Parkway E/B SR with McLaughlin Avenue and 188th Street,Queens,'GRAND CENTRAL PARKWAY E/B SR' NOT RECOGNIZED. THERE ARE 010 SIMILAR NAMES.     
+757,Greenpoint Avenue with 48th Avenue and 41st Street,Queens,                                                                                
+759,Guy R Brewer Boulevard and JHS 72 (mid-block),Queens,'JHS 72 (MID-BLOCK)' NOT RECOGNIZED. THERE ARE NO SIMILAR NAMES                 
+766,Hillside Avenue and 164th Street East Leg,Queens,'164TH STREET EAST LEG' NOT RECOGNIZED. THERE ARE 006 SIMILAR NAMES.            
+768,Hillside Avenue and 178th Street/Edgerton Boulevard,Queens,'178TH STREET/EDGERTON BOULEVARD' NOT RECOGNIZED. THERE ARE 002 SIMILAR NAMES.  
+775,Hillside Avenue and Cross Island YMCA (170' West of 239th Street) (mid-block),Queens,'CROSS ISLAND YMCA (170' WEST OF' NOT RECOGNIZED. THERE ARE 010 SIMILAR NAMES.  
+777,Hillside Avenue with 187th Street and Chelsea Street,Queens,                                                                                
+778,Hillside Avenue with Babbage Street and 118th Street,Queens,                                                                                
+779,Hillside Avenue with Merrick Boulevard and 166th Street,Queens,INPUT DOES NOT DEFINE A STREET SEGMENT                                          
+782,Hollis Court Boulevard with 189th Street and 46th Road,Queens,INPUT DOES NOT DEFINE A STREET SEGMENT                                          
+783,Horace Harding Expressway Eastbound and Cloverdale Boulevard,Queens,'HORACE HARDING EXPRESSWAY EASTBO' NOT RECOGNIZED. THERE ARE 010 SIMILAR NAMES. 
+784,Horace Harding Expressway Service Road North and 92nd Street,Queens,'HORACE HARDING EXPRESSWAY SERVIC' NOT RECOGNIZED. THERE ARE 010 SIMILAR NAMES. 
+785,Horace Harding Expressway Westbound and Fresh Meadow Lane,Queens,'HORACE HARDING EXPRESSWAY WESTBO' NOT RECOGNIZED. THERE ARE 010 SIMILAR NAMES. 
+786,Horace Harding Expressway Westbound Service Road and Cloverdale Boulevard,Queens,'HORACE HARDING EXPRESSWAY WESTBO' NOT RECOGNIZED. THERE ARE 010 SIMILAR NAMES. 
+787,Horace Harding Expressway Westbound Service Road at Corona Avenue,Queens,'HORACE HARDING EXPRESSWAY WESTBO' NOT RECOGNIZED. THERE ARE 010 SIMILAR NAMES. 
+788,Horace Harding Parkway Service Road Eastbound at Grand Central Parkway Service Road West,Queens,'HORACE HARDING PARKWAY SERVICE R' NOT RECOGNIZED. THERE ARE 010 SIMILAR NAMES. 
+794,Jamaica Avenue and 190th Street,Queens,STREETS INTERSECT TWICE- FT BETWEEN INTERSECTIONS. COMPASS DIRECTION REQ'D      
+801,Jamaica Avenue with 143rd Street and 144th Street,Queens,                                                                                
+802,Jamaica Avenue with Woodhull Avenue and 188th Street,Queens,INPUT DOES NOT DEFINE A STREET SEGMENT                                          
+808,Liberty Avenue and 127th Street,Queens,STREETS INTERSECT TWICE- FT BETWEEN INTERSECTIONS. COMPASS DIRECTION REQ'D      
+809,Liberty Avenue and 80th Street S/B,Queens,'80TH STREET S/B' NOT RECOGNIZED. THERE ARE 006 SIMILAR NAMES.                  
+814,Linden Boulevard with Lincoln Street and 134th Street,Queens,                                                                                
+817,Long Island Expressway North Service Road at 99th Street,Queens,'LONG ISLAND EXPRESSWAY NORTH SER' NOT RECOGNIZED. THERE ARE 010 SIMILAR NAMES. 
+821,Main Street and Pedestrian Crossing between 63rd Avenue & Gravett Road (mid-block),Queens,'MAIN STREET & PEDESTRIAN CROSSIN' NOT RECOGNIZED. THERE ARE 005 SIMILAR NAMES. 
+825,Merrick Boulevard and 108th Avenue,Queens,STREETS INTERSECT TWICE- FT BETWEEN INTERSECTIONS. COMPASS DIRECTION REQ'D      
+826,Merrick Boulevard and 109th Avenue,Queens,STREETS INTERSECT TWICE- FT BETWEEN INTERSECTIONS. COMPASS DIRECTION REQ'D      
+833,Northern Boulevard and 110th Street,Queens,STREETS INTERSECT TWICE- FT BETWEEN INTERSECTIONS. COMPASS DIRECTION REQ'D      
+837,Northern Boulevard and 220th Place,Queens,STREETS INTERSECT TWICE- FT BETWEEN INTERSECTIONS. COMPASS DIRECTION REQ'D      
+844,Northern Boulevard and Alley Pond Environmental Center (750’ East of Cross Island NB),Queens,'ALLEY POND ENVIRONMENTAL CENTER' NOT RECOGNIZED. THERE ARE 010 SIMILAR NAMES.  
+849,Northern Boulevard at 211th Street,Queens,STREETS INTERSECT TWICE- FT BETWEEN INTERSECTIONS. COMPASS DIRECTION REQ'D      
+852,Northern Boulevard with Roosevelt Avenue and 156th Street,Queens,INPUT DOES NOT DEFINE A STREET SEGMENT                                          
+855,Queens Boulevard (eastbound) and Woodhaven Boulevard,Queens,'QUEENS BOULEVARD (EASTBOUND)' NOT RECOGNIZED. THERE ARE 010 SIMILAR NAMES.     
+856,Queens Boulevard (westbound) and Woodhaven Boulevard,Queens,'QUEENS BOULEVARD (WESTBOUND)' NOT RECOGNIZED. THERE ARE 010 SIMILAR NAMES.     
+857,Queens Boulevard and 32nd Place,Queens,STREETS INTERSECT TWICE- FT BETWEEN INTERSECTIONS. COMPASS DIRECTION REQ'D      
+868,Queens Boulevard and 66th Street (BQE East Bound Entrance),Queens,'66TH STREET (BQE EAST BOUND ENTR' NOT RECOGNIZED. THERE ARE 006 SIMILAR NAMES. 
+869,Queens Boulevard and Queens Borough Hall,Queens,NON-ADDRESSABLE PLACE NAME PROCESSING IS NOT AVAILABLE FOR THIS FUNCTION        
+872,Queens Boulevard between 72nd and 73rd Streets,Queens,'72ND' NOT RECOGNIZED. THERE ARE 009 SIMILAR NAMES.                             
+873,Queens Boulevard EB SR and Union Turnpike SB SR,Queens,'QUEENS BOULEVARD EB SR' NOT RECOGNIZED. THERE ARE 010 SIMILAR NAMES.           
+874,Queens Boulevard with 57th Avenue and Hoffman Drive,Queens,                                                                                
+875,Queens Boulevard with 64th Avenue and 64th Road,Queens,THESE STREETS INVOLVE A 'DOGLEG' - SHORTEST STRETCH PROVIDED                    
+876,Queens Boulevard with 68th Street and BQE Eastbound Entrance,Queens,INPUT DOES NOT DEFINE A STREET SEGMENT                                          
+877,Queens Boulevard with 71st Avenue and 108th Street,Queens,INPUT DOES NOT DEFINE A STREET SEGMENT                                          
+878,Queens Plaza North and 28th Street,Queens,STREETS INTERSECT MORE THAN TWICE - USE NODE AS INPUT                           
+882,Rockaway Boulevard and 123rd Street,Queens,STREETS INTERSECT TWICE- FT BETWEEN INTERSECTIONS. COMPASS DIRECTION REQ'D      
+883,Rockaway Boulevard and 135th Street,Queens,STREETS INTERSECT TWICE- FT BETWEEN INTERSECTIONS. COMPASS DIRECTION REQ'D      
+885,Rockaway Boulevard and 142nd Street,Queens,STREETS INTERSECT TWICE- FT BETWEEN INTERSECTIONS. COMPASS DIRECTION REQ'D      
+889,Rockaway Boulevard with 101st Avenue and 88th Street,Queens,INPUT DOES NOT DEFINE A STREET SEGMENT                                          
+890,Rockaway Boulevard with 131st Street and Lincoln Street,Queens,INPUT DOES NOT DEFINE A STREET SEGMENT                                          
+891,Rockaway Boulevard with 132nd Street and 120th Avenue,Queens,                                                                                
+892,Rockaway Boulevard with 84th Street and Digby Place,Queens,                                                                                
+893,Rockaway Boulevard with 85th Street and 97th Avenue,Queens,THESE STREETS INVOLVE A 'DOGLEG' - SHORTEST STRETCH PROVIDED                    
+894,Rockaway Boulevard with Foch Boulevard and 126th Street,Queens,                                                                                
+896,Roosevelt Avenue and 57th Street,Queens,STREETS INTERSECT TWICE- FT BETWEEN INTERSECTIONS. COMPASS DIRECTION REQ'D      
+898,Roosevelt Avenue and 78th Street,Queens,STREETS INTERSECT TWICE- FT BETWEEN INTERSECTIONS. COMPASS DIRECTION REQ'D      
+901,"Roosevelt Avenue with Elmhurst Avenue, Case Street and 90th Street",Queens,"'ELMHURST AVENUE, CASE STREET' NOT RECOGNIZED. THERE ARE 005 SIMILAR NAMES.     "
+902,Roosevelt Avenue with Woodside Avenue and 59th Avenue,Queens,INPUT DOES NOT DEFINE A STREET SEGMENT                                          
+903,Sayres Avenue with 111th Avenue and 177th Street,Queens,                                                                                
+906,Skillman Avenue and 54th Street,Queens,STREETS INTERSECT TWICE- FT BETWEEN INTERSECTIONS. COMPASS DIRECTION REQ'D      
+908,Steinway Street and  440' north of 31st Avenue (midblock crossing),Queens,' 440' NORTH OF 31ST AVENUE (MIDB' NOT RECOGNIZED. THERE ARE NO SIMILAR NAMES   
+909,Steinway Street between 34th Avenue and Broadway (midblock),Queens,'BROADWAY (MIDBLOCK)' NOT RECOGNIZED. THERE ARE 010 SIMILAR NAMES.              
+910,Steinway Street between Broadway and 31st Avenue (midblock),Queens,'31ST AVENUE (MIDBLOCK)' NOT RECOGNIZED. THERE ARE 007 SIMILAR NAMES.           
+912,Thomson Avenue and 31st Place (mid-block),Queens,'31ST PLACE (MID-BLOCK)' NOT RECOGNIZED. THERE ARE 007 SIMILAR NAMES.           
+921,Woodhaven Boulevard (NB) and Long Island Epressway entrance ramp,Queens,'WOODHAVEN BOULEVARD (NB)' NOT RECOGNIZED. THERE ARE 010 SIMILAR NAMES.         
+924,Woodhaven Boulevard and 86th Drive (East Leg),Queens,'86TH DRIVE (EAST LEG)' NOT RECOGNIZED. THERE ARE 006 SIMILAR NAMES.            
+925,Woodhaven Boulevard and 86th Drive (West Leg),Queens,'86TH DRIVE (WEST LEG)' NOT RECOGNIZED. THERE ARE 006 SIMILAR NAMES.            
+929,Woodhaven Boulevard East Service Road and 180’ South of Jamaica Avenue,Queens,'WOODHAVEN BOULEVARD EAST SERVICE' NOT RECOGNIZED. THERE ARE 010 SIMILAR NAMES. 
+930,Woodhaven Boulevard West Service Road and 147’ South of Jamaica Avenue,Queens,'WOODHAVEN BOULEVARD WEST SERVICE' NOT RECOGNIZED. THERE ARE 010 SIMILAR NAMES. 
+931,Woodhaven Boulevard with Penelope Avenue and 63rd Drive,Queens,                                                                                
+933,Yellowstone Boulevard and Austin Street,Queens,STREETS INTERSECT TWICE- FT BETWEEN INTERSECTIONS. COMPASS DIRECTION REQ'D      
+935,Yellowstone Boulevard and Queens Boulevard,Queens,STREETS INTERSECT TWICE- FT BETWEEN INTERSECTIONS. COMPASS DIRECTION REQ'D      
+937,Amboy Road with Ridgecrest Avenue and Putnam Street,Staten Island,                                                                                
+941,Bay Street with Front Street and Edgewater Street,Staten Island,INPUT DOES NOT DEFINE A STREET SEGMENT                                          
+942,Brielle Avenue and Bradley Avenue,Staten Island,STREETS INTERSECT MORE THAN TWICE - USE NODE AS INPUT                           
+943,Brielle Avenue and Gansevoort Boulevard (Wagner High School),Staten Island,'GANSEVOORT BOULEVARD (WAGNER HIG' NOT RECOGNIZED. THERE ARE 005 SIMILAR NAMES. 
+946,Castleton Avenue and Brighton Avenue (S.I. Center for Independent Living),Staten Island,'BRIGHTON AVENUE (S.I. CENTER FOR' NOT RECOGNIZED. THERE ARE 010 SIMILAR NAMES. 
+951,Forest Avenue and Davis Avenue,Staten Island,STREETS INTERSECT TWICE- FT BETWEEN INTERSECTIONS. COMPASS DIRECTION REQ'D      
+958,Hylan Boulevard and Huegenot Avenue,Staten Island,'HUEGENOT AVENUE' NOT RECOGNIZED. THERE ARE NO SIMILAR NAMES                    
+960,Hylan Boulevard and West Fingerboard Road,Staten Island,STREETS INTERSECT MORE THAN TWICE - USE NODE AS INPUT                           
+963,Hylan Boulevard at Tysens Lane,Staten Island,STREETS INTERSECT TWICE- FT BETWEEN INTERSECTIONS. COMPASS DIRECTION REQ'D      
+964,Hylan Boulevard with Ebbitts Street and Allison Avenue,Staten Island,INPUT DOES NOT DEFINE A STREET SEGMENT                                          
+965,Hylan Boulevard with Wendy Drive and St. Joseph’s High School,Staten Island,'ST. JOSEPH?S HIGH SCHOOL' NOT RECOGNIZED. THERE ARE 010 SIMILAR NAMES.         
+967,New Dorp Lane (mid-block) between Hylan Boulevard and Mill Road,Staten Island,'NEW DORP LANE (MID-BLOCK)' NOT RECOGNIZED. THERE ARE 010 SIMILAR NAMES.        
+972,Richmond Road with Todt Hill Road and Greeley Avenue,Staten Island,                                                                                
+979,Targee Street and Naples Street (235’ North of Venice Street),Staten Island,'NAPLES STREET (235? NORTH OF VEN' NOT RECOGNIZED. THERE ARE 002 SIMILAR NAMES. 
+987,Woodrow Road with Billings Street and Tynan Street,Staten Island,INPUT DOES NOT DEFINE A STREET SEGMENT                                          
+988,3rd Avenue and East 138th Street,the Bronx,STREETS INTERSECT TWICE- FT BETWEEN INTERSECTIONS. COMPASS DIRECTION REQ'D      
+991,3rd Avenue between East 169th Street and East 170th Street (mid-block),the Bronx,'EAST 170TH STREET (MID-BLOCK)' NOT RECOGNIZED. THERE ARE 002 SIMILAR NAMES.    
+993,Alexander Avenue between East 135th Street and East 137th Street (mid-block),the Bronx,'EAST 137TH STREET (MID-BLOCK)' NOT RECOGNIZED. IS IT 'EAST  137 STREET'?       
+996,Bailey Avenue and West 234th Street and Bailey Place,the Bronx,'BAILEY AVENUE & WEST 234TH STREE' NOT RECOGNIZED. THERE ARE 004 SIMILAR NAMES. 
+998,Bartow Avenue and Co-Op City Boulevard and Bay Plaza Boulevard,the Bronx,'BARTOW AVENUE & CO-OP CITY BOULE' NOT RECOGNIZED. THERE ARE 010 SIMILAR NAMES. 
+999,Baychester Avenue and 200’ South of Donizetti Place (mid-block),the Bronx,'200? SOUTH OF DONIZETTI PLACE (M' NOT RECOGNIZED. THERE ARE 002 SIMILAR NAMES. 
+1001,Baychester Avenue with Tillotson Avenue and Rombouts Avenue,the Bronx,INPUT DOES NOT DEFINE A STREET SEGMENT                                          
+1003,Boston Road and Boller Avenue (South Leg),the Bronx,'BOLLER AVENUE (SOUTH LEG)' NOT RECOGNIZED. THERE ARE 005 SIMILAR NAMES.        
+1004,Boston Road and East 212th Street/Pearsall Avenue,the Bronx,'EAST 212TH STREET/PEARSALL AVENU' NOT RECOGNIZED. IS IT 'EAST  212 STREET'?    
+1008,Boston Road with Dyre Avenue and Steenwick Avenue,the Bronx,INPUT DOES NOT DEFINE A STREET SEGMENT                                          
+1010,Broadway and Van Cortlandt Park  (580' South of 251st Street),the Bronx,'VAN CORTLANDT PARK  (580' SOUTH' NOT RECOGNIZED. THERE ARE 010 SIMILAR NAMES.  
+1012,Broadway with West 240th Street and Van Cortlandt Park South,the Bronx,                                                                                
+1013,Bronx and Pelham Parkway South Eastbound at Seymour Avenue,the Bronx,'BRONX & PELHAM PARKWAY SOUTH EAS' NOT RECOGNIZED. THERE ARE 010 SIMILAR NAMES. 
+1020,Bruckner Boulevard North Westbound and Boynton Avenue,the Bronx,'BRUCKNER BOULEVARD NORTH WESTBOU' NOT RECOGNIZED. THERE ARE 010 SIMILAR NAMES. 
+1023,Co-Op City Boulevard and 550’ North of Bellamy Loop North (mid-block),the Bronx,'550? NORTH OF BELLAMY LOOP NORTH' NOT RECOGNIZED. THERE ARE NO SIMILAR NAMES   
+1024,Co-Op City Boulevard and Carver Loop East,the Bronx,'CARVER LOOP EAST' NOT RECOGNIZED. THERE ARE 010 SIMILAR NAMES.                 
+1025,Co-Op City Boulevard and Rombouts Avenue and Carver Loop West,the Bronx,'CO-OP CITY BOULEVARD & ROMBOUTS' NOT RECOGNIZED. THERE ARE 007 SIMILAR NAMES.  
+1027,Cross Bronx Expressway Southbound Service Road and Entrance to Bronx River Parkway Northbound,the Bronx,'CROSS BRONX EXPRESSWAY SOUTHBOUN' NOT RECOGNIZED. THERE ARE 010 SIMILAR NAMES. 
+1028,Crotona Avenue between East 181st and East 182nd Streets,the Bronx,'EAST 182ND STREETS' NOT RECOGNIZED. IS IT 'EAST  182 STREET'?                  
+1030,East 161st Street and Grant Avenue (mid-block),the Bronx,'GRANT AVENUE (MID-BLOCK)' NOT RECOGNIZED. THERE ARE 010 SIMILAR NAMES.         
+1031,East 161st Street and Pedestrian Crossing (400’ West of River Avenue) (mid-block),the Bronx,'PEDESTRIAN CROSSING (400? WEST O' NOT RECOGNIZED. THERE ARE 006 SIMILAR NAMES. 
+1034,East 163rd Street between Trinity Avenue and Tinton Avenue (mid-block),the Bronx,'TINTON AVENUE (MID-BLOCK)' NOT RECOGNIZED. THERE ARE 002 SIMILAR NAMES.        
+1036,East 170th Street and 150’ West of Grand Concourse,the Bronx,'150? WEST OF GRAND CONCOURSE' NOT RECOGNIZED. IS IT 'EAST  150 STREET'?        
+1044,East Fordham Road and Bathgate Avenue,the Bronx,STREETS INTERSECT TWICE- FT BETWEEN INTERSECTIONS. COMPASS DIRECTION REQ'D      
+1046,East Gun Hill Road and Fish Avenue,the Bronx,STREETS INTERSECT TWICE- FT BETWEEN INTERSECTIONS. COMPASS DIRECTION REQ'D      
+1047,East Gun Hill Road and Gunther Avenue,the Bronx,STREETS INTERSECT TWICE- FT BETWEEN INTERSECTIONS. COMPASS DIRECTION REQ'D      
+1050,East Gun Hill Road with Holland Avenue and Tilden Street,the Bronx,STREET COMBINATION NOT UNIQUE                                                   
+1051,East Gun Hill Road with Perry Ave and Reservoir Place,the Bronx,INPUT DOES NOT DEFINE A STREET SEGMENT                                          
+1052,East Gun Hill Road with Seymour Avenue and Sexton Place,the Bronx,                                                                                
+1057,East Tremont Avenue and Lehman High School (mid-block),the Bronx,'LEHMAN HIGH SCHOOL (MID-BLOCK)' NOT RECOGNIZED. THERE ARE NO SIMILAR NAMES     
+1059,East Tremont Avenue with Hutchinson River Parkway and Ericson Place,the Bronx,                                                                                
+1063,Edward L Grant Highway and West 170th Avenue,the Bronx,'WEST 170TH AVENUE' NOT RECOGNIZED. IS IT 'WEST  170 STREET'?                   
+1064,Edward L Grant Hwy and West 169 Street,the Bronx,STREETS INTERSECT TWICE- FT BETWEEN INTERSECTIONS. COMPASS DIRECTION REQ'D      
+1065,Ft. Independence Street and Heath Avenue,the Bronx,STREETS INTERSECT TWICE- FT BETWEEN INTERSECTIONS. COMPASS DIRECTION REQ'D      
+1066,Goulden Avenue and Lehman College High School,the Bronx,'LEHMAN COLLEGE HIGH SCHOOL' NOT RECOGNIZED. THERE ARE NO SIMILAR NAMES         
+1075,Jerome Avenue and Shakespeare Avenue,the Bronx,STREETS INTERSECT TWICE- FT BETWEEN INTERSECTIONS. COMPASS DIRECTION REQ'D      
+1078,Jerome Avenue between East 208th Street and East Gun Hill Road (mid-block),the Bronx,'EAST GUN HILL ROAD (MID-BLOCK)' NOT RECOGNIZED. THERE ARE 003 SIMILAR NAMES.   
+1079,Jerome Avenue with Mosholu East and West Parkway,the Bronx,'MOSHOLU EAST' NOT RECOGNIZED. THERE ARE 010 SIMILAR NAMES.                     
+1086,Manhattan College Parkway and Waldo Avenue,the Bronx,STREETS INTERSECT TWICE- FT BETWEEN INTERSECTIONS. COMPASS DIRECTION REQ'D      
+1089,Morris Park Avenue and Albert Einstein College of Medicine (mid-block),the Bronx,'ALBERT EINSTEIN COLLEGE OF MEDIC' NOT RECOGNIZED. THERE ARE 004 SIMILAR NAMES. 
+1096,Pelham Parkway (WB) between Pearsall Avenue and Throop Avenue (mid-block),the Bronx,'PELHAM PARKWAY (WB)' NOT RECOGNIZED. THERE ARE 010 SIMILAR NAMES.              
+1098,Pelham Parkway N/S Service Roads and Williams Bridge Road,the Bronx,'PELHAM PARKWAY N/S SERVICE ROADS' NOT RECOGNIZED. THERE ARE 010 SIMILAR NAMES. 
+1102,Pelham Parkway South Service Road at Seymour Avenue,the Bronx,'PELHAM PARKWAY SOUTH SERVICE ROA' NOT RECOGNIZED. THERE ARE 010 SIMILAR NAMES. 
+1109,Riverdale Avenue with West 231st Street and Irwin Avenue,the Bronx,                                                                                
+1110,Sedgewick Avenue with Dickenson Avenue and Goulden Avenue,the Bronx,'DICKENSON AVENUE' NOT RECOGNIZED. IS IT 'DICKERSON AVENUE'?                    
+1111,Sedgwick Avenue and Undercliff Avenue,the Bronx,STREETS INTERSECT TWICE- FT BETWEEN INTERSECTIONS. COMPASS DIRECTION REQ'D      
+1112,Sedgwick Avenue and West 229th Street (mid-block),the Bronx,'WEST 229TH STREET (MID-BLOCK)' NOT RECOGNIZED. THERE ARE 002 SIMILAR NAMES.    
+1113,Sedgwick Avenue and West 230th Street (mid-block),the Bronx,'WEST 230TH STREET (MID-BLOCK)' NOT RECOGNIZED. THERE ARE 003 SIMILAR NAMES.    
+1114,Soundview Avenue at Thieriot Avenue (mid-block),the Bronx,'THIERIOT AVENUE (MID-BLOCK)' NOT RECOGNIZED. THERE ARE 010 SIMILAR NAMES.      
+1115,Southern Boulevard and East 189th Street (mid-block),the Bronx,'EAST 189TH STREET (MID-BLOCK)' NOT RECOGNIZED. THERE ARE 002 SIMILAR NAMES.    
+1119,Southern Boulevard with Crotona Parkway and East 176th Street,the Bronx,INPUT DOES NOT DEFINE A STREET SEGMENT                                          
+1122,Stillwell Avenue and Pelham Parkway South (Service Road),the Bronx,'PELHAM PARKWAY SOUTH (SERVICE RO' NOT RECOGNIZED. THERE ARE 010 SIMILAR NAMES. 
+1123,Story Avenue and Bruckner Plaza Mall Exit/Entrance (between Boynton & Morrison Avenues),the Bronx,ON STREET IS MISSING                                                            
+1127,Unionport Road and Crosswalk East of Metropolitan Oval (mid-block),the Bronx,'CROSSWALK EAST OF METROPOLITAN O' NOT RECOGNIZED. THERE ARE 010 SIMILAR NAMES. 
+1128,University Avenue (Martin Luther King Junior Boulevard) and Morton Place,the Bronx,'UNIVERSITY AVENUE (MARTIN LUTHER' NOT RECOGNIZED. THERE ARE 010 SIMILAR NAMES. 
+1129,University Avenue and Macombs Road,the Bronx,STREETS INTERSECT TWICE- FT BETWEEN INTERSECTIONS. COMPASS DIRECTION REQ'D      
+1130,University Avenue and West 175th Street,the Bronx,STREETS INTERSECT TWICE- FT BETWEEN INTERSECTIONS. COMPASS DIRECTION REQ'D      
+1132,University Avenue and West 181st Street (mid-block),the Bronx,'WEST 181ST STREET (MID-BLOCK)' NOT RECOGNIZED. IS IT 'WEST  181 STREET'?       
+1133,University Avenue with Featherbed Lane and West 174th Street (mid-block),the Bronx,'WEST 174TH STREET (MID-BLOCK)' NOT RECOGNIZED. IS IT 'WEST  174 STREET'?       
+1135,Valentine Avenue between East Tremont and East 178th Street,the Bronx,'EAST TREMONT' NOT RECOGNIZED. THERE ARE 002 SIMILAR NAMES.                     
+1136,Van Cortlandt Park East between East 239th Street and Oneida Avenue (mid-block),the Bronx,'ONEIDA AVENUE (MID-BLOCK)' NOT RECOGNIZED. THERE ARE 003 SIMILAR NAMES.        
+1141,Webster Avenue between East 169th and East 170th Street (mid-block),the Bronx,'EAST 169TH' NOT RECOGNIZED. THERE ARE 002 SIMILAR NAMES.                       
+1142,Webster Avenue between East 170th Street and East 171st Street (mid-block),the Bronx,'EAST 171ST STREET (MID-BLOCK)' NOT RECOGNIZED. IS IT 'EAST  171 STREET'?       
+1143,Webster Avenue between East Gun Hill Road and East 233rd Street (mid-block),the Bronx,'EAST 233RD STREET (MID-BLOCK)' NOT RECOGNIZED. THERE ARE 005 SIMILAR NAMES.    
+1144,Webster Avenue between East Tremont and East 178th Street,the Bronx,'EAST TREMONT' NOT RECOGNIZED. THERE ARE 002 SIMILAR NAMES.                     
+1145,West 169th Street with Cromwell Avenue and Inwood Avenue,the Bronx,                                                                                
+1148,West Kingsbridge Road with Reservoir Avenue and Aqueduct Avenue West,the Bronx,                                                                                
+1149,Westchester Avenue and West Farm Road,the Bronx,'WEST FARM ROAD' NOT RECOGNIZED. IS IT 'WEST FARMS ROAD'?                       
+1150,"Westchester Avenue with Crosby, Buhre and Edison Avenues",the Bronx,"'CROSBY, BUHRE' NOT RECOGNIZED. THERE ARE 010 SIMILAR NAMES.                    "
+1155,White Plains Road and Unionport Road,the Bronx,STREETS INTERSECT TWICE- FT BETWEEN INTERSECTIONS. COMPASS DIRECTION REQ'D      
+1156,White Plains Road with Bronxdale Avenue and Unionport Road,the Bronx,                                                                                
+1159,Williamsbridge Road and Sacket Avenue,the Bronx,STREETS INTERSECT TWICE- FT BETWEEN INTERSECTIONS. COMPASS DIRECTION REQ'D      
