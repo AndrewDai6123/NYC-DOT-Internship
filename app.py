@@ -7,6 +7,7 @@ from shapely.geometry import LineString, Point
 #Read accessible-pedestrian-signals csv
 df = pd.read_csv("input files/accessible-pedestrian-signals.csv")
 pd.set_option('display.max_rows', None)
+errorLog = {"LineNumber": [], 'Location': [], "Borough": [], "Errors": []}
 
 #API Variables
 Key = "fAAdUpAeZcHg0AQ7"
@@ -16,6 +17,7 @@ Function3url = "https://geoservice.planning.nyc.gov/geoservice/geoservice.svc/Fu
 #Geocoding
 for i, row in df.iterrows():
     #Geo Variables
+    address = str(df.at[i, 'Location'])
     Borough = str(df.at[i,'Borough'])
     #Function 2 "and"
     F2Str1and = str(df.at[i,'Location']).rpartition(' and ')[0]
@@ -63,7 +65,12 @@ for i, row in df.iterrows():
             df.at[i, header] = values
             print(i, str(df.at[i,'Location']), line)
         except:
-            print('Not geocoded: ' + str(df.at[i,'Location']))
+            print('Not geocoded: ' + str(df.at[i, 'Location']) + " " + data["out_error_message"])
+            errorLog["LineNumber"].append(i)
+            errorLog["Location"].append(address)
+            errorLog["Borough"].append(Borough)
+            errorLog["Errors"].append(data["out_error_message"])
+
 
     #Function 3 on, from, to: locations with "with" and "and"
     if "with" in str(df.at[i,'Location']):
@@ -92,7 +99,12 @@ for i, row in df.iterrows():
             df.at[i, header] = values
             print(i, str(df.at[i,'Location']), line)
         except:
-            print('Not geocoded: ' + str(df.at[i,'Location']))
+            print('Not geocoded: ' + str(df.at[i, 'Location']) + " " + data["out_error_message"])
+            errorLog["LineNumber"].append(i)
+            errorLog["Location"].append(address)
+            errorLog["Borough"].append(Borough)
+            errorLog["Errors"].append(data["out_error_message"])
+
 
     #Function 2 for intersect locations with "at"
     if " at " in str(df.at[i,'Location']):
@@ -120,8 +132,13 @@ for i, row in df.iterrows():
             df.at[i, header] = values
             print(i, str(df.at[i,'Location']), point)
         except Exception as e:
-            print('Not geocoded: ' + str(df.at[i,'Location']))
+            print('Not geocoded: ' + str(df.at[i, 'Location']) + " " + data["out_error_message"])
+            errorLog["LineNumber"].append(i)
+            errorLog["Location"].append(address)
+            errorLog["Borough"].append(Borough)
+            errorLog["Errors"].append(data["out_error_message"])
 
+    
     #Function 2 for intersect locations with "and"
     if " and " in str(df.at[i,'Location']):
         try: 
@@ -148,8 +165,9 @@ for i, row in df.iterrows():
             df.at[i, header] = values
             print(i, str(df.at[i,'Location']), point)
         except Exception as e:
-            print('Not geocoded: ' + str(df.at[i,'Location']))
+            print('Not geocoded: ' + str(df.at[i, 'Location']) + " " + data["out_error_message"])
 
-
+errorLogDF = pd.DataFrame(errorLog)
+errorLogDF.to_csv("output CSV files/ErrorLog.csv", index=False)
 #Save data to csv file
 df.to_csv('output CSV files/accessible-pedestrian-signals-Geo.csv')
