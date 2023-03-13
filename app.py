@@ -10,7 +10,7 @@ pd.set_option('display.max_rows', None)
 errorLog = {"LineNumber": [], 'Location': [], "Borough": [], "Errors": []}
 
 #API Variables
-Key = "fAAdUpAeZcHg0AQ7"
+Key = "Secret API Key"
 Function2url = "https://geoservice.planning.nyc.gov/geoservice/geoservice.svc/Function_2?"
 Function3url = "https://geoservice.planning.nyc.gov/geoservice/geoservice.svc/Function_3?"
 
